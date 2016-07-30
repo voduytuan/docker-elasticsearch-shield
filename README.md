@@ -19,8 +19,8 @@ docker run -ti -d \
 	--restart=always \
 	--name elasticsearch \
 	-v /data/elasticsearch/data:/usr/share/elasticsearch/data \
-	-e ES_USERNAME:es_admin \
-	-e ES_PASSWORD:es_adminpassword \
+	-e ES_USERNAME=es_admin \
+	-e ES_PASSWORD=es_adminpassword \
 	-p 9200:9200 -p 9300:9300 \
 	voduytuan/docker-elasticsearch-shield
 ```
