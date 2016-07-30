@@ -24,3 +24,4 @@ docker run -ti -d \
 	-p 9200:9200 -p 9300:9300 \
 	voduytuan/docker-elasticsearch-shield
 ```
+Docker image: https://hub.docker.com/r/voduytuan/docker-elasticsearch-shield/
